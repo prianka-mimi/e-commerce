@@ -1,6 +1,6 @@
 # E-commerce Website !
 
-**Exploring laravel 12 New Version** with **CRUD In Laravel**. It's a project about **E-commerce** website.
+**Exploring laravel 12 New Version** with **CRUD In Laravel**. It's a project about **E-commerce** website. Using **Breeze** in Laravel.
 
 ## Table of Contents
 
@@ -18,6 +18,8 @@
 
 -   Blade Templating - HTML template integration in Laravel
 
+-   Breeze - Authentication
+
 ## Has Been Used
 
 -   Html
@@ -26,6 +28,65 @@
 -   JavaScript
     -   JQuery (Password Toggle)
 -   Laravel
+    -   Breeze   
+
+##  Breeze Installation
+```
+composer require laravel/breeze --dev
+```
+
+⚠️ **If compatibility warning (Most likely!)**
+
+```
+composer require laravel/breeze:dev-main --dev
+```
+
+⭐ **```dev-main``` branch is not a stable release, but it's compatible with Laravel 12 in Breeze.
+That's why not mentioned in official Laravel 12 documentation.**
+
+👉 **Laravel Breeze GitHub Repo : 🔗 https://github.com/laravel/breeze**
+
+👉 **Laravel 12 Official Documentation : 🔗 https://laravel.com/**
+
+👉 **Laravel 11 Official Documentation Breeze : 🔗 https://laravel.com/docs/11.x/starter-kits#laravel-breeze**
+
+**Then**
+
+```
+php artisan breeze:install blade
+```
+
+**OR**
+
+```
+php artisan breeze:install vue
+```
+
+**OR**
+
+```
+php artisan breeze:install react
+```
+
+**Then**
+
+```
+npm install && npm run dev
+```
+
+**Then**
+
+```
+php artisan migrate
+```
+
+**Then**
+
+```
+php artisan serve
+```
+
+**Here You Go 😉**
 
 ## View In Short
 
