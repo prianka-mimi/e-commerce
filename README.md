@@ -29,9 +29,9 @@
 
 ## View In Short
 
-**Welcome Page**
+**Home Page**
 
-<img  src="public/ss/website/welcome.png"  alt="E-commerce">
+<img  src="public/ss/home.png"  alt="E-commerce">
 
 ## ✨ Contact
 
